@@ -1,0 +1,23 @@
+.about {
+    gap: 5rem;
+  }
+  
+  .about .img-div {
+    width: 60rem;
+    height: 50rem;
+    border-radius: 0.6rem;
+  }
+  .about > .img-div::before {
+    border-radius: inherit;
+    content: "";
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    background-color: #c5770f;
+    background-color: #80b2f0;
+  
+    height: 100%;
+    width: 100%;
+    top: 2.2rem;
+    right: 2.2rem;
+  }

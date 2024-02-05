@@ -1,0 +1,48 @@
+.work {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.work-card:nth-child(even) {
+  align-self: end;
+}
+
+.work-header {
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+
+.work h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  /* margin-left: 1rem; */
+}
+
+.work-card {
+  width: 60%;
+}
+
+.work-card .img-div {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+
+.work-details p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  opacity: 0.9;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.work-svg {
+  height: 4rem;
+  width: 4rem;
+  fill: #0097e6;
+  fill: #0984e3;
+  fill: #d6761b;
+}

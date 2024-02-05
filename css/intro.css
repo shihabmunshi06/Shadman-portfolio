@@ -1,0 +1,42 @@
+.intro {
+  gap: 3rem;
+}
+/* .intro p::before {
+  content: "";
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  transform: translateY(50%);
+} */
+
+.intro h1 {
+    font-size: 2.8rem;
+  }
+  .intro p {
+    font-weight: 300;
+    opacity: 0.9;
+  }
+  
+  .intro .img-div {
+    width: 60rem;
+    height: 50rem;
+    border-radius: 0.6rem;
+  }
+  
+  .intro > .img-div::before {
+    border-radius: inherit;
+    content: "";
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    background-color: #638cab;
+    height: 100%;
+    width: 100%;
+    top: 2.2rem;
+    left: 2.2rem;
+  }
