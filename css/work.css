@@ -2,16 +2,8 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
-}
 
-.work-card:nth-child(even) {
-  align-self: end;
-}
-
-.work-header {
-  align-items: start;
-  flex-direction: column;
-  margin-bottom: 1.6rem;
+  gap: 2rem;
 }
 
 .work h2 {
@@ -20,8 +12,15 @@
   /* margin-left: 1rem; */
 }
 
+.work-card:nth-child(even) {
+  align-self: end;
+}
 .work-card {
   width: 60%;
+  border: 1px solid rgb(189, 195, 199);
+  border-radius: .6rem;
+  padding: 2rem;
+
 }
 
 .work-card .img-div {
@@ -30,6 +29,11 @@
   border-radius: 50%;
 }
 
+.work-header {
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
 
 .work-details p {
   font-size: 1.6rem;

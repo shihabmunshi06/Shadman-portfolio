@@ -11,5 +11,13 @@ header .container ul {
   gap: 3rem;
 }
 
-header nav {
+
+header nav a {
+  font-weight: 300;
+  opacity: .9;
+}
+
+header nav a:hover {
+  color: #638cab;
+  color: #DD6B0E;
 }

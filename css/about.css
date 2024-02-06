@@ -13,11 +13,19 @@
     position: absolute;
     width: 50rem;
     height: 50rem;
-    background-color: #c5770f;
     background-color: #80b2f0;
+    background-color: #DD6B0E;
   
     height: 100%;
     width: 100%;
     top: 2.2rem;
     right: 2.2rem;
+  }
+
+  .detail-text-container{
+    width: 50%;
+  }
+  .detail-text-container p{
+    font-weight: 300;
+    line-height: 2;
   }

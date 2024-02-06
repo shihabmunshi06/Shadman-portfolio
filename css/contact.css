@@ -1,4 +1,25 @@
+.contact{
+ justify-content: space-around;
+}
+
 #message {
-    border: 1px solid gray;
-  }
-  
+  background-color: #e7e7e7;
+  height: 10rem;
+  width: 40rem;
+  padding: 2rem;
+  color: #A5A5A5;
+  border-radius: 1rem;
+}
+
+label{
+  font-weight: 300;
+  opacity: .9;
+  margin-right: 1.8rem;
+}
+
+
+footer{
+  font-size: 1.2rem;
+  font-weight: 200;
+  opacity: .4;
+}
